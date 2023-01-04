@@ -1,0 +1,27 @@
+Answer of Question number 1:
+
+dup2()
+It is the function that is used to duplicate the file descriptor into the specified place on doing so it closes the destination file descriptor first.
+
+creat()
+It is used in the past to create new files with different options like O_CREAT and O_TRUNC, as open() has only three options for second arguments.
+
+pipe()
+It takes two file descriptors as an argument and uses one of them to read from one process and another one to write in to the another process.
+
+fork()
+Creates new process called child which is duplicate of the parent except for the certain fields like process id.
+
+pthread_create()
+Creates new thread and stores ID of the created thread in the location referenced by the thread upon sucessful completion.
+
+system()
+Executes the commands in the command processor or the terminal of the operating system which are passed as an arguments.
+
+printf()
+Used to print the formatted content which are passed as an arguments.
+
+
+
+Answer of Question number 2:
+When all the arguments are valid i.e. syntactically correct, last line of the function invokeCmd() will invoke the function pointer listed in the CmdTable with the appropriate arguments.

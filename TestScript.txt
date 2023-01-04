@@ -1,0 +1,16 @@
+# TestScript.txt
+!ls
+ls
+mkfs D2
+ls
+ls > test
+mkfs D1 > test2
+ls | !cat
+ls | cat
+ls | ls | ls
+ls | ls | !ls
+!ls | !ls | !ls
+!cat test
+!date
+!sleep 15 &
+quit
